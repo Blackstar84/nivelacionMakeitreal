@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capturando Información del usuario</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+          <label for="nombre">
+            Nombre
+            <input type="text" name="name" id="nombre" value=""/>
+          </label>
+        </fieldset>
+        <fieldset>
+          <label for="apellido">
+            Apellido
+            <input type="text" name="lastName" id="apellido" value=""/>
+          </label>
+        </fieldset>
+        <fieldset>
+          <label for="email">
+            Correo
+            <input type="email" name="email" id="email" value=""/>
+          </label>
+        </fieldset>
+        <fieldset>
+          <label>
+            Color
+            <select name="color">
+              <option value="" disabled selected>Selecciona un color</option>
+              <option value="red">Rojo</option>
+              <option value="orange">Naranja</option>
+              <option value="yellow">Amarillo</option>
+            </select>
+          </label>
+        </fieldset>
+        <fieldset>
+          <label>
+            <input type="radio" name="size" value="S" />
+            Talla S
+          </label>
+          <label>
+            <input type="radio" name="size" value="M" checked />
+            Talla M
+          </label>
+          <label>
+            <input type="radio" name="size" value="L" />
+            Talla L
+          </label>
+        </fieldset>
+        <fieldset>
+          <label>
+            Comentario
+            <textarea name="comments" rows="4" cols="60"></textarea>
+          </label>
+        </fieldset>
+        <fieldset>
+          <input type="submit" value="Pedir" />
+        </fieldset>
+      </form>
+</body>
+</html>

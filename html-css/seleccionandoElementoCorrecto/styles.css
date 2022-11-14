@@ -1,0 +1,47 @@
+.primer-container {
+    width: 100%;
+    height: 250px;
+    background-color: #1c2742;
+    color: white;
+  }
+  
+  #primer {
+    text-align: center;
+    position: relative;
+    top: 100px;
+  }
+  
+  h1 , h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .productos {
+    width: 100%;
+    height: 200px;
+    background-color: #1c2742;
+  }
+  
+  .productos > div {
+    position: relative;
+    top: 55px;
+  }
+  
+  .productos p {
+    color: white;
+    text-align: center;
+    position: relative;
+  }
+  
+  a:link {
+    color: red;
+  }
+  
+  a:visited {
+    color: green;
+  }
+  
+  a:hover {
+    color: blueviolet;
+  }
